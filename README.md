@@ -117,19 +117,18 @@ We analysis the install column to observe the effect of size, price, rating, con
 ## Conclusion:
 Most of the apps are free so developers should focus on creating free apps to have a huge customer base. If developing paid apps then apps size should not be greater than 40mb. More Apps should be in the category like Events,Beauty,Parenting as they have not been explored much but still quite popular with huge installations. In order to retain the customer base apps should be updated regularly Developers should develop apps such that their content is available for everyone. Bulky apps should be developed in the category like Game, Family. If developing paid apps then its price should not be high and size should be less than 20mb. Apps belonging to Game and Family Category have high negative reviews therefore they should be developed carefully. Like this there can be a lot of conclusions but we have tried to cover the most important ones.
 These are some of the aspects that the developer should research before proceeding with the app development. By conducting a simple exploratory data analysis (EDA) on the play store dataset, we not only eliminate avoidable risks of failure, but we may also be able to provide better ideas for building the app.
-*	Percentage of free apps = ~92%
-*	Percentage of apps with no age restrictions = ~82%
-*	Most competitive category: Family
-*	Category with the highest number of installs: Game
-*	Category with the highest average app installs: Communication
-*	Percentage of apps that are top rated = ~80%
-*	There are 20 free apps that have been installed over a billion times
-*	Minecraft is the only app in the paid category with over 10M installs. This app has also produced the most revenue only from the installation fee.
-*	Category in which the paid apps have the highest average installation fee: Finance
-*	Most popular app in the Play Store based on the number of reviews: Facebook
-*	The median size of all apps in the play store is 12 MB.
-*	The apps whose size varies with device has the highest number average app installs.
-*	The apps whose size is greater than 90 MB has the highest number of average user reviews, i.e., they are more popular than the rest.
-*	Helix Jump has the highest number of positive reviews and Angry Birds Classic has the highest number of negative reviews.
+1.	Number of apps in each category showed that Family, Game and Tools had the most apps and Parenting, Comics and Beauty had the least app count 
+2.	Game and Communication had the greatest number of Installs 
+3.	Family, Game and Tools category had the Highest ratings amongst all. 
+4.	The number of apps that are Free are more than the paid application
+5.	Most popular categories amongst developers include Family, Game and Tools; while the users prefer Games, Communication, Social and Productivity above others, followed by Tools and Family. 
+6.	Paid apps occupy 7.4 % of the market share while 92.6% of the apps are free. 
+7.	Through top 10 most installed and most reviewed/popular apps, we can generate revenue by increasing advertisement in them. We can direct users towards our revenue generating apps. Also, paid versions of such free apps can also be introduced including some exclusive features. 
+8.	With least popular and least installed free apps, we probably don’t need to invest resources in them, so they can be pushed towards decommissioning. If the installs are high with bad ratings, then those apps need to be improved. 
+9.	To cover a broader user base, from the most profitable apps, we can conclude that more apps with low price and high profitability should be promoted. 
+10.	The Rating plot seems to be a skewed normal distribution left skewed around average 4.2 stars. 
+11.	The sentiment distribution shows the degree of polarity of the distributions. In general, we find 63.6% of reviews to be positive, 25% negative and 11.4% neutral. 
+12.	The boxplot of rating distribution can be used to check for differences between categories. No. of ratings & reviews signifies the level with which the user preferred the app. Categories with less outliers and a more balanced distribution and more installs can be a much safer investment than others.
+
 
 -----------------------------------------------------
